@@ -7,7 +7,7 @@ this mod includes the restored & improved rhythm game editor in DELTARUNE Chapte
 	- it is reccommended to BACKUP your original data.win file.
 	- by selecting the backup original file option, the patch will be saved to dataPATCHED.win instead.
   - rename the new file to data.win.
-- drag every *.txt file (except for this one) into your save directory
+- drag every *.txt file into your save directory
 - create a save file with the dark world flag enabled that loads into either of the following:
 	- room_rhythmgame_editor (access to the full chart editor and auto mode)
 	- room_dw_rhythm_countdown (access to the track select and hard mode)
@@ -19,6 +19,10 @@ this mod includes the restored & improved rhythm game editor in DELTARUNE Chapte
 # Features
 custom songs can be created, modified and deleted via the chart editor
 vanilla song list can be restored by deleting songlist.txt
+## A note about stems
+when creating a custom song, you will be asked to provide a "no guitar" stem and a "guitar" stem these can either:
+- be the same file (this will make them mutually exclusive in playthroughs)
+- one file with everything but the guitar, then one file with ONLY the guitar. (this is how stems are intended to work in DELTARUNE)
 glhf, and happy charting!
 
 PS. original snippets of the vanilla rhythm minigame
