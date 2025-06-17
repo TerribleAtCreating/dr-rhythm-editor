@@ -24,7 +24,7 @@ this mod includes the restored & improved rhythm game editor in DELTARUNE Chapte
 ## A note about stems
 when creating a custom song, you will be asked to provide a "no guitar" stem and a "guitar" stem these can either:
 - be the same file (this will make them mutually exclusive in playthroughs)
-- one file with everything but the guitar, then one file with ONLY the guitar. (this is how stems are intended to work in DELTARUNE)
+- one file with everything but the guitar, then one file with everything. (this is how stems are intended to work in DELTARUNE)
 
 glhf, and happy charting!
 
