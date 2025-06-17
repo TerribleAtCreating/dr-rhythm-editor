@@ -22,9 +22,9 @@ this mod includes the restored & improved rhythm game editor in DELTARUNE Chapte
 - the chart editor provides quick access to auto, normal and hard mode
 - some unused/debug keybinds were restored
 ## A note about stems
-when creating a custom song, you will be asked to provide a "no guitar" stem and a "guitar" stem these can either:
+when creating a custom song, you will be asked to provide a "no guitar" stem and a "guitar" stem. these can either:
 - be the same file (this will make them mutually exclusive in playthroughs)
-- one file with everything but the guitar, then one file with everything. (this is how stems are intended to work in DELTARUNE)
+- be one file with everything but the guitar stem, then one file with everything. (this is how stems are intended to work in DELTARUNE)
 
 glhf, and happy charting!
 
