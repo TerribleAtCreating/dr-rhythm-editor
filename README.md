@@ -17,12 +17,15 @@ this mod includes the restored & improved rhythm game editor in DELTARUNE Chapte
 - open DELTARUNE and load said save file
 
 # Features
-custom songs can be created, modified and deleted via the chart editor
-vanilla song list can be restored by deleting songlist.txt
+- custom songs can be created, modified and deleted via the chart editor
+- vanilla song list can be restored by deleting songlist.txt
+- the chart editor provides quick access to auto, normal and hard mode
+- some unused/debug keybinds were restored
 ## A note about stems
 when creating a custom song, you will be asked to provide a "no guitar" stem and a "guitar" stem these can either:
 - be the same file (this will make them mutually exclusive in playthroughs)
 - one file with everything but the guitar, then one file with ONLY the guitar. (this is how stems are intended to work in DELTARUNE)
+
 glhf, and happy charting!
 
 PS. original snippets of the vanilla rhythm minigame
