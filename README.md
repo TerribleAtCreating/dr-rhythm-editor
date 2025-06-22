@@ -10,7 +10,7 @@ The version supported by this mod can be reached using these IDs:
 
 IF you have bought DELTARUNE on Steam, you can first open up Steam's console by pressing `Win + R` and running `steam://open/console`.
 You can downgrade DELTARUNE by running `download_depot 1671210 1671212 6530852604090871226` from your Steam console.
-You can then access that version from `C:\Program Files (x86)\Steam\steamapps\content\app_1671210\depot_1671212`. (adapt as needed)
+You can then access that version with the path provided by the console after finish.
 
 # Mod setup
 - Directly download this repository (from the `main` branch) as a ZIP from the code folder (releasing it frequently would be too much of a hassle)
