@@ -18,6 +18,8 @@ this mod includes the restored & improved rhythm game editor in DELTARUNE Chapte
 
 # Features
 - custom songs can be created, modified and deleted via the chart editor
+- custom music files/pointers can be loaded through DELTARUNE's "mus" folder
+- implementation of custom bpm and time signatures, including change mapping
 - vanilla song list can be restored by deleting songlist.txt
 - the chart editor provides quick access to auto, normal and hard mode
 - some unused/debug keybinds were restored
@@ -25,6 +27,7 @@ this mod includes the restored & improved rhythm game editor in DELTARUNE Chapte
 when creating a custom song, you will be asked to provide a "no guitar" stem and a "guitar" stem. these can either:
 - be the same file (this will make them mutually exclusive in playthroughs)
 - be one file with everything but the guitar stem, then one file with everything. (this is how stems are intended to work in DELTARUNE)
+	- to signal the game of the "no guitar" stem, your filename must include "no_guit" anywhere in it.
 
 glhf, and happy charting!
 
