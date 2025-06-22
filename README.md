@@ -1,6 +1,9 @@
 hi, thanks for picking up the mod!
 this mod includes the restored & improved rhythm game editor in DELTARUNE Chapter 4 and the custom Black Knife chart.
 
+***NOTE: this mod is currently built upon the RELEASE version of DELTARUNE.***
+***on Steam, the depot and manifest ids are 1671212 and 6530852604090871226 respectively, if you know how to use those.***
+
 # How to install:
 - directly download this repository as a ZIP from the code folder (releasing it frequently would be too much of a hassle)
 - using the Delta Patcher (DeltaPatcher.exe), patch your Chapter 4 data.win file using the rhythm_editor.xdelta file.
