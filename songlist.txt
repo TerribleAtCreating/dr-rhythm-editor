@@ -1,6 +1,7 @@
-Rude Buster;rudebuster;140;120;0;battle.ogg;battle.ogg
-Field of Hopes and Dreams;fieldofhopes;125;120;0;field_of_hopes.ogg;field_of_hopes.ogg
-Knock You Down!!;knockyoudown;195;180;-2;rhythm_knockdown_no_guit.ogg;rhythm_knockdown_combined.ogg
-Raise Up Your Bat;karaoke;230;150;0;ch3_karaoke_no_guitar.ogg;ch3_karaoke_full.ogg
-It's TV Time!;tenna;148;180;-1;tenna_battle.ogg;tenna_battle_guitar.ogg
-Black Knife;knight;295;300;-4;knight.ogg;knight.ogg
+Rude Buster;rudebuster;140;4/4;120;0;battle.ogg;battle.ogg
+Field of Hopes and Dreams;fieldofhopes;125;4/4;120;0;field_of_hopes.ogg;field_of_hopes.ogg
+Knock You Down!!;knockyoudown;195;4/4;180;-2;rhythm_knockdown_no_guit.ogg;rhythm_knockdown_combined.ogg
+Raise Up Your Bat;karaoke;230;4/4;120;0;ch3_karaoke_no_guitar.ogg;ch3_karaoke_full.ogg
+It's TV Time!;tenna;148;4/4;180;-1;tenna_battle.ogg;tenna_battle_guitar.ogg
+Black Knife;knight;295;4/4;300;-4;knight.ogg;knight.ogg
+The Third Sanctuary;church_zone3;170;9/4;150;-1;church_zone3.ogg;church_zone3.ogg
