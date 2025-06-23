@@ -43,11 +43,14 @@ When creating a custom song, you will be asked to provide a "no guitar" stem and
 - Be one file with everything but the guitar stem, then one file with everything respectively. (this is how stems are intended to work in DELTARUNE)
 	- To signal the game of the "no guitar" stem, your filename must include "no_guit" anywhere in it.
 # Lyrical syntax
-There's currently little to no knowledge about modifying lyrics, but for now:
 - Words get seperated by spaces and get played on a vocal note (Ralsei's track)
-- Ralsei's censored lyrics can be added by using [width:lyric], where width is the equivalent amount of characters.
-	- For example, FIGHT can be censored to [5:PACIFY]
-- Hyphens (-) SUPPOSEDLY alter the syllable matching
+- Ralsei's censored lyrics can be added by using `[width:lyric]`, where width is the equivalent amount of characters.
+	- For example, FIGHT can be censored to `[5:PACIFY]`
+- Hyphens (-) alter the syllable matching
+	- For example, `SMILING` can be seperated by typing `SMIL-ING`
+ 	- This also means you can't include hyphens in your lyrics
+- Adding a lyric hide basically involves leaving it empty
+- You can also extend the censored lyrics past the actual lyrics if you so wish
 
 GLHF, and happy charting!
 
