@@ -1,7 +1,7 @@
 hi, thanks for picking up the mod!
 this mod includes the restored & improved rhythm game editor in DELTARUNE Chapter 4 and the custom Black Knife chart.
 
-# Versioning DELTARUNE for the mod
+# Downgrading DELTARUNE for the mod
 This mod is built upon the release version of DELTARUNE from Steam.
 The version supported by this mod can be reached using these IDs:
 - `App ID`: 1671210
@@ -33,14 +33,21 @@ You can then access that version with the path provided by the console after fin
 - Custom music files/pointers can be loaded through DELTARUNE's "mus" folder
 - Quick access to other tracks from the rhyhm game via the retry prompt
 - Implementation of custom BPM and time signatures, including change mapping
+- Custom Ralsei lyrics and censored/family-friendly lyrics
 - Vanilla song list can be restored by deleting songlist.txt
 - Quick access to auto, normal and hard mode via the chart editor
 - Restoration of some unused/debug keybinds
-## A note about stems
-When creating a custom song, you will be asked to provide a "no guitar" stem and a "guitar" stem. these can either:
+## Configuring stems in songs
+When creating a custom song, you will be asked to provide a "no guitar" stem and a "with guitar" stem. these can either:
 - Be the same file (this will make them mutually exclusive in playthroughs)
-- Be one file with everything but the guitar stem, then one file with everything. (this is how stems are intended to work in DELTARUNE)
+- Be one file with everything but the guitar stem, then one file with everything respectively. (this is how stems are intended to work in DELTARUNE)
 	- To signal the game of the "no guitar" stem, your filename must include "no_guit" anywhere in it.
+# Lyrical syntax
+There's currently little to no knowledge about modifying lyrics, but for now:
+- Words get seperated by spaces and get played on a vocal note (Ralsei's track)
+- Ralsei's censored lyrics can be added by using [width:lyric], where width is the equivalent amount of characters.
+	- For example, FIGHT can be censored to [5:PACIFY]
+- Hyphens (-) SUPPOSEDLY alter the syllable matching
 
 GLHF, and happy charting!
 
