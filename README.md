@@ -36,7 +36,16 @@ You can then access that version with the path provided by the console after fin
 - Custom Ralsei lyrics and censored/family-friendly lyrics
 - Vanilla song list can be restored by deleting songlist.txt
 - Quick access to auto, normal and hard mode via the chart editor
-- Restoration of some unused/debug keybinds
+- Restoration of some unused/debug keybinds (and some brand-new ones)
+## Reserved song IDs
+The original DELTARUNE contains hardcoded cases for a few specific songs. These include:
+- "karaoke" (Raise Up Your Bat)
+- "tutorial" (Magically playing demo)
+- "practice" (Sound Test)
+- "board4" (The super awesome Doom Board rhythm game)
+- "knockyoudown" (Knock You Down!!)
+The songs listed above contain animation events that may interfere with your charts.
+The charts themselves, however, are not affected by these.
 ## Configuring stems in songs
 When creating a custom song, you will be asked to provide a "no guitar" stem and a "with guitar" stem. these can either:
 - Be the same file (this will make them mutually exclusive in playthroughs)
