@@ -37,6 +37,20 @@ You can then access that version with the path provided by the console after fin
 - Vanilla song list can be restored by deleting songlist.txt
 - Quick access to auto, normal and hard mode via the chart editor
 - Restoration of some unused/debug keybinds (and some brand-new ones)
+
+# Discrepancies
+## Character chart differences
+When making charts for DELTARUNE, choosing a specific character instrument will result in the following changes:
+### Susie [Drums]
+- Only has the ability to play regular notes on two lanes.
+### Kris [Lead]
+- Has the full potential of the two-lane system, including regular notes, held notes and double notes.
+### Ralsei [Vocals]
+- Has access to an additional lane, totalling to three lanes.
+- Defaults to placing held notes.
+- When converting a held note back to a regular one, it is transformed into a tambourine note that matches the lane color (and vice versa)
+- Cannot play multiple notes at once
+- Has the only note chart render to have an arrow under it in-game
 ## Reserved song IDs
 The original DELTARUNE contains hardcoded cases for a few specific songs. These include:
 - "karaoke" (Raise Up Your Bat)
@@ -44,13 +58,14 @@ The original DELTARUNE contains hardcoded cases for a few specific songs. These 
 - "practice" (Sound Test)
 - "board4" (The super awesome Doom Board rhythm game)
 - "knockyoudown" (Knock You Down!!)
-The songs listed above contain animation events that may interfere with your charts.
+The songs listed above contain animation or temporal events that may interfere with your charts.
 The charts themselves, however, are not affected by these.
 ## Configuring stems in songs
 When creating a custom song, you will be asked to provide a "no guitar" stem and a "with guitar" stem. these can either:
 - Be the same file (this will make them mutually exclusive in playthroughs)
 - Be one file with everything but the guitar stem, then one file with everything respectively. (this is how stems are intended to work in DELTARUNE)
 	- To signal the game of the "no guitar" stem, your filename must include "no_guit" anywhere in it.
+
 # Lyrical syntax
 - Words get seperated by spaces and get played on a vocal note (Ralsei's track)
 - Ralsei's censored lyrics can be added by using `[width:lyric]`, where width is the equivalent amount of characters.
