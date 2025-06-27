@@ -41,11 +41,11 @@ You can then access that version with the path provided by the console after fin
 # Discrepancies
 ## Character chart differences
 When making charts for DELTARUNE, choosing a specific character instrument will result in the following changes:
-### Susie [Drums]
+### Susie \[Drums\]
 - Only has the ability to play regular notes on two lanes.
-### Kris [Lead]
+### Kris \[Lead\]
 - Has the full potential of the two-lane system, including regular notes, held notes and double notes.
-### Ralsei [Vocals]
+### Ralsei \[Vocals\]
 - Has access to an additional lane, totalling to three lanes.
 - Defaults to placing held notes.
 - When converting a held note back to a regular one, it is transformed into a tambourine note that matches the lane color (and vice versa).
@@ -54,11 +54,12 @@ When making charts for DELTARUNE, choosing a specific character instrument will 
 - His notes control the timing for the lyrics (if any).
 ## Reserved song IDs
 The original DELTARUNE contains hardcoded cases for a few specific songs. These include:
-- "karaoke" (Raise Up Your Bat)
-- "tutorial" (Magically playing demo)
-- "practice" (Sound Test)
-- "board4" (The super awesome Doom Board rhythm game)
-- "knockyoudown" (Knock You Down!!)
+- `"karaoke"` (Raise Up Your Bat)
+- `"tutorial"` (Magically playing demo)
+- `"practice"` (Sound Test)
+- `"board4"` (The super awesome Doom Board rhythm game)
+- `"knockyoudown"` (Knock You Down!!)
+
 The songs listed above contain animation or temporal events that may interfere with your charts.
 The charts themselves, however, are not affected by these.
 ## Configuring stems in songs
@@ -70,12 +71,12 @@ When creating a custom song, you will be asked to provide a "no guitar" stem and
 # Lyrical syntax
 - Words get seperated by spaces and get played on a vocal note (Ralsei's track)
 - Ralsei's censored lyrics can be added by using `[width:lyric]`, where width is the equivalent amount of characters.
-	- For example, FIGHT can be censored to `[5:PACIFY]`
+	- For example, FIGHT can be censored to `[5:ACT]` or `[5:PACIFY]`
 - Hyphens (-) alter the syllable matching
 	- For example, `SMILING` can be seperated by typing `SMIL-ING`
- 	- This also means you can't include hyphens in your lyrics
-- Adding a lyric hide basically involves leaving it empty
-- You can also extend the censored lyrics past the actual lyrics if you so wish
+ 	- This also means you can't include rendered hyphens in your lyrics
+- Adding a lyric hiding cue basically involves leaving it empty
+- You can also extend the censored lyrics past the actual lyrics if you so wish...
 
 GLHF, and happy charting!
 
