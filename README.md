@@ -48,9 +48,10 @@ When making charts for DELTARUNE, choosing a specific character instrument will 
 ### Ralsei [Vocals]
 - Has access to an additional lane, totalling to three lanes.
 - Defaults to placing held notes.
-- When converting a held note back to a regular one, it is transformed into a tambourine note that matches the lane color (and vice versa)
-- Cannot play multiple notes at once
-- Has the only note chart render to have an arrow under it in-game
+- When converting a held note back to a regular one, it is transformed into a tambourine note that matches the lane color (and vice versa).
+- Cannot play multiple notes at once.
+- Has the only note chart render to have an arrow under it in-game.
+- His notes control the timing for the lyrics (if any).
 ## Reserved song IDs
 The original DELTARUNE contains hardcoded cases for a few specific songs. These include:
 - "karaoke" (Raise Up Your Bat)
