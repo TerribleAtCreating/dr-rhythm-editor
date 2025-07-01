@@ -83,12 +83,19 @@ The original DELTARUNE contains hardcoded cases for a few specific songs. These 
 
 The songs listed above contain animation or temporal events that may interfere with your charts.
 The charts themselves, however, are not affected by these.
+## Saving and loading songs
+Whenever you save a song within the editor, it is automatically sent to your save file directory, this is also the case for vanilla songs.
+A GameMaker limitation however saves the songs with the timestamps truncated to two decimal places. The chart will differ *very* slightly but probably won't cause any major issues.
+- Song data files suffixed with `_autosave.txt` can be loaded using the autosave option with `Ctrl + O`.
+- Song data files suffixed with `_export.txt` should be modded into the game manually, but this is completely optional.
+
+To send custom charts to others, you must provide all 3-5 (depending on what you edited) song data files and the `songlist.txt` file.
+These will automatically be processed by the mpd and will allow you and others to play the chart you made.
 ## Configuring stems in songs
 When creating a custom song, you will be asked to provide a "no guitar" stem and a "with guitar" stem. these can either:
 - Be the same file (this will make them mutually exclusive in playthroughs)
 - Be one file with everything but the guitar stem, then one file with everything respectively. (this is how stems are intended to work in DELTARUNE)
 	- To signal the game of the "no guitar" stem, your filename must include `"no_guit"` anywhere in it.
-
 # Lyrical syntax
 - Words get seperated by spaces and get played on a vocal note (Ralsei's track)
 - Ralsei's censored lyrics can be added by using `[width:lyric]`, where width is the equivalent amount of characters.
