@@ -16,6 +16,9 @@ You can then access that version with the path provided by the console after fin
 - Directly download this repository (from the `main` branch) as a ZIP from the code folder (releasing it frequently would be too much of a hassle)
 - Using the Delta Patcher (DeltaPatcher.exe), patch your Chapter 4 data.win file using the rhythm_editor.xdelta file.
 	- It is reccommended to BACKUP your original data.win file.
+	
+ 	![image](https://github.com/user-attachments/assets/902f3c12-b6a6-4dee-b653-9783b8eb9ab9)
+  	![image](https://github.com/user-attachments/assets/66bce0a0-314e-4b8a-a3c1-0aa5eca7d1d2)
 	- By selecting the backup original file option, the patch will be saved to `dataPATCHED.win` instead.
 	- Rename this new file to data.win.
 - Drag every *.txt file into your save directory
@@ -27,6 +30,9 @@ You can then access that version with the path provided by the console after fin
 	- `room_dw_rhythm` (unaccounted for; will very very very likely crash)
 	- `room_dw_castle_tv_rhythm` (barely works, only points to the first 3 songs)
 - Open DELTARUNE and load said save file
+- If you did all of the steps above, your editor room will look like this:
+
+![image](https://github.com/user-attachments/assets/373fe637-10fb-43e1-9469-1618980eed8e)
 
 # Features
 - Custom songs can be created, modified and deleted via the chart editor
@@ -37,8 +43,23 @@ You can then access that version with the path provided by the console after fin
 - Vanilla song list can be restored by deleting songlist.txt
 - Quick access to auto, normal and hard mode via the chart editor
 - Restoration of some unused/debug keybinds (and some brand-new ones)
+## Additional keyboard shortcuts
+(sourced from real shortcuts and not indicated in the tooltips)
+- `(Hold) Delete`: Deletes all notes you highlight
+- `Ctrl + C`: Copy all notes one measure ahead
+- `Ctrl + V`: Paste all notes into the next measure(s)
+	- `Ctrl + Shift + [C or V]`: Above command but with two measures
+	- These do not affect your actual clipboard
+- `Ctrl + X`: Cuts notes (copies notes, then deletes them)
+- `Ctrl + S`: Replacement for vanilla's `U`, saves your chart
+- `Ctrl + O`: Replacement for vanilla's `I`, loads a chart from a chosen source
 
 # Discrepancies
+## Stacked notes
+There may be times where you are able to place two identical notes on top of eachother.
+If that happens, your note will be highlighted red, as shown here:
+
+![image](https://github.com/user-attachments/assets/d8b68f23-dc6d-4f27-b51b-b47fcb452f57)
 ## Character chart differences
 When making charts for DELTARUNE, choosing a specific character instrument will result in the following changes:
 ### Susie \[Drums\]
@@ -66,7 +87,7 @@ The charts themselves, however, are not affected by these.
 When creating a custom song, you will be asked to provide a "no guitar" stem and a "with guitar" stem. these can either:
 - Be the same file (this will make them mutually exclusive in playthroughs)
 - Be one file with everything but the guitar stem, then one file with everything respectively. (this is how stems are intended to work in DELTARUNE)
-	- To signal the game of the "no guitar" stem, your filename must include "no_guit" anywhere in it.
+	- To signal the game of the "no guitar" stem, your filename must include `"no_guit"` anywhere in it.
 
 # Lyrical syntax
 - Words get seperated by spaces and get played on a vocal note (Ralsei's track)
