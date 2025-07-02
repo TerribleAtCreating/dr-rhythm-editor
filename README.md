@@ -1,5 +1,6 @@
 hi, thanks for picking up the mod!
 this mod includes the restored & improved rhythm game editor in DELTARUNE Chapter 4 and the custom Black Knife chart.
+made with [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool)
 
 # Downgrading DELTARUNE for the mod
 This mod is built upon the release version of DELTARUNE from Steam.
