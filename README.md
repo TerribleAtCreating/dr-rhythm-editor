@@ -23,15 +23,8 @@ You can then access that version with the path provided by the console after fin
 	- By selecting the backup original file option, the patch will be saved to `dataPATCHED.win` instead.
 	- Rename this new file to data.win.
 - Drag every *.txt file into your save directory
-- For the following step, it is reccommended to have a lookup table or save editor for the room names.
-- Create a save file with the dark world flag enabled that loads into either of the following:
-	- `room_rhythmgame_editor` (access to the full chart editor and auto mode)
-	- `room_dw_rhythm_countdown` (access to the track select and hard mode)
-- It is NOT reccommended to load into any of the following:
-	- `room_dw_rhythm` (unaccounted for; will very very very likely crash)
-	- `room_dw_castle_tv_rhythm` (barely works, only points to the first 3 songs)
-- Open DELTARUNE and load said save file
-- If you did all of the steps above, your editor room will look like this:
+- When opening Chapter 4, you will be greeted with a debug screen. You can go straight to Lightners Live or in this case, load into the chart editor.
+- If you did all of the steps above, your editor will look like this:
 
 ![image](https://github.com/user-attachments/assets/373fe637-10fb-43e1-9469-1618980eed8e)
 
