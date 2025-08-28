@@ -58,6 +58,10 @@ If that happens, your note will be highlighted red, as shown here:
 When making charts for DELTARUNE, choosing a specific character instrument will result in the following changes:
 ### Susie \[Drums\]
 - Only has the ability to play regular notes on two lanes.
+- When attempting to extend a note, you will be moved to a ghost lane that would have the third note.
+    - Placing a note in this state will create an orange line, as seen in "Raise Up Your Bat".
+    - To delete these types of notes, hover over said ghost lane where the note would be, and right click as usual.
+    - This ghost lane is very prone to note stacking due to how it was handled. Be cautious.
 ### Kris \[Lead\]
 - Has the full potential of the two-lane system, including regular notes, held notes and double notes.
 ### Ralsei \[Vocals\]
