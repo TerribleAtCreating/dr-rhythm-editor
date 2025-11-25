@@ -31,7 +31,7 @@ You can then access that version with the path provided by the console after fin
 # Features
 - Custom songs can be created, modified and deleted via the chart editor
 - Custom music files/pointers can be loaded through DELTARUNE's "mus" folder
-- Quick access to other tracks from the rhyhm game via the retry prompt
+- Quick access to other tracks from the rhythm game via the retry prompt
 - Implementation of custom BPM and time signatures, including change mapping
 - Custom Ralsei lyrics and censored/family-friendly lyrics
 - Vanilla song list can be restored by deleting songlist.txt
