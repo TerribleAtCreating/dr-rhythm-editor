@@ -16,7 +16,7 @@ You can then access that version with the path provided by the console after fin
 # Mod setup
 - Directly download this repository (from the `main` branch) as a ZIP from the code folder (releasing it frequently would be too much of a hassle)
 - Using the Delta Patcher (DeltaPatcher.exe), patch your Chapter 4 data.win file using the rhythm_editor.xdelta file.
-	- It is reccommended to BACKUP your original data.win file.
+	- It is recommended to BACKUP your original data.win file.
 	
  	![image](https://github.com/user-attachments/assets/902f3c12-b6a6-4dee-b653-9783b8eb9ab9)
   	![image](https://github.com/user-attachments/assets/66bce0a0-314e-4b8a-a3c1-0aa5eca7d1d2)
